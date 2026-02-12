@@ -27,7 +27,7 @@ export function useFetch(request) {
         if (params._limit) {
             limit.current = params._limit
         }
-        console.log('params', params._limit)
+
         page.current = page.current + 1
         loading.current = true
         setRestart(!restart)
