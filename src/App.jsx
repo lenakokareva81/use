@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-      <h1>pfgbcm d localStorage</h1>
+      <h1>использование  uselocalStorage</h1>
+
       {/* <Demo /> */}
       <DemoToLocalStorage />
     </>
