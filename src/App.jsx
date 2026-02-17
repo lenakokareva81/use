@@ -1,9 +1,5 @@
 import Demo from "./Demo"
-
-
-
-
-
+import DemoToLocalStorage from "./DemoToLocalStorage"
 
 
 function App() {
@@ -11,7 +7,8 @@ function App() {
 
   return (
     <>
-      <Demo />
+      {/* <Demo /> */}
+      <DemoToLocalStorage />
     </>
   )
 }
