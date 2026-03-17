@@ -1,4 +1,4 @@
-import { useLocalStorage } from './useLocalStorage';
+import { useLocalStorage } from '../utils/useLocalStorage';
 
 function DemoToLocalStorage() {
     const [value, { setItem, removeItem }] = useLocalStorage('some-key');

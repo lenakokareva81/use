@@ -1,5 +1,6 @@
-import Demo from "./Demo"
-import DemoToLocalStorage from "./DemoToLocalStorage"
+import Demo from "./assets/components/Demo"
+import DemoToLocalStorage from "./assets/components/DemoToLocalStorage"
+import Form from "./assets/components/form/Form"
 
 
 function App() {
@@ -7,10 +8,10 @@ function App() {
 
   return (
     <>
-      <h1>использование  uselocalStorage</h1>
-
+      <h1>форма</h1>
+      <Form />
       {/* <Demo /> */}
-      <DemoToLocalStorage />
+      {/* <DemoToLocalStorage /> */}
     </>
   )
 }
